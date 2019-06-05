@@ -23,7 +23,6 @@ class D3Main extends React.Component {
             </div>
         )
     }
-    
 }
 
 export default D3Main;

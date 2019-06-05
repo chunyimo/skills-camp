@@ -1,0 +1,38 @@
+#connectpanel {
+    border: 1px solid coral;
+    width: 2000px;
+    height: 400px;
+    padding: 10px 20px;
+    overflow: scroll;
+}
+
+/* .item::before {
+    position: absolute;
+    left: -89px;
+    top: -100px;
+    bottom: 25px;
+    border-left: 3px solid #ec1010;
+    content: "";
+    z-index: 10;
+}
+.item::after {
+    position: absolute;
+    top: 8px;
+    left: -89px;
+    width: 87px;
+    height: 10px;
+    border: solid #f70505;
+    border-width: 0 0 3px 3px;
+    border-bottom-left-radius: 50px;
+    content: "";
+} */
+
+.h6 {
+    border-left: 2px solid transparent;
+    padding: 0 25px 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+

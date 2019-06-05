@@ -20,6 +20,7 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import ContextSvg from '../assets/icons/context.svg';
 const useStyles = makeStyles(theme => ({
     hide: {
         display: 'none',
@@ -124,7 +125,7 @@ function SiderbarLayout(props) {
                                     className={classes.link} 
                                 >
                                     <ListItemIcon><MakeIcon picture={DragSvg}></MakeIcon></ListItemIcon>
-                                    <Typography variant='h7' component='span' className={classes.linkName} >DND</Typography>
+                                    <Typography  component='span' className={classes.linkName} >DND</Typography>
                                 </Link>
                             </ListItem>
                             <ListItem
@@ -139,6 +140,20 @@ function SiderbarLayout(props) {
                                 >
                                     <ListItemIcon><MakeIcon picture={DragSvg}></MakeIcon></ListItemIcon>
                                     D3
+                                </Link>
+                            </ListItem>
+                            <ListItem
+                            button
+                            selected={selectedIndex === 1}
+                            onClick={event => handleListItemClick(event, 1)}
+                            >
+                                
+                                <Link 
+                                to='/reactcontext'
+                                className={classes.link}
+                                >
+                                    <ListItemIcon><MakeIcon picture={ContextSvg}></MakeIcon></ListItemIcon>
+                                    ReactContext
                                 </Link>
                             </ListItem>
                         </List>
