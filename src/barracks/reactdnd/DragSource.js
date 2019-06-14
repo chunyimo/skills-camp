@@ -146,42 +146,42 @@ const DragSource = (props) => {
             {/* <div class='box' style={boxstyle}>
                 <div class="item" style={itemstyle}>1</div>
             </div> */}
-            <div class="wrap" style={wrapstyle}>
-                <div class='box' style={boxstyle}>
-                    <div class="item" style={itemstyle}>2</div>
-                    <div class="wrap" style={wrapstyle}>
-                            <div class='box' style={boxstyle}>
-                                <div class="item" style={itemstyle}>
-                                    <div class="line" style={linestyle}></div> 
-                                    <span class="opt" style={optstyle}>+</span> 
+            <div  style={wrapstyle}>
+                <div  style={boxstyle}>
+                    <div  style={itemstyle}>2</div>
+                    <div  style={wrapstyle}>
+                            <div  style={boxstyle}>
+                                <div  style={itemstyle}>
+                                    <div  style={linestyle}></div> 
+                                    <span  style={optstyle}>+</span> 
                                     2
                                 </div>
-                                <div class="wrap" style={wrapstyle}>
+                                <div  style={wrapstyle}>
 
                                 </div>
                             </div>
-                            <div class='box' style={boxstyle}>
-                                <div class="item" style={itemstyle}>
-                                    <div class="line" style={linestyle2}></div>  
+                            <div  style={boxstyle}>
+                                <div  style={itemstyle}>
+                                    <div  style={linestyle2}></div>  
                                 </div>
-                                <div class="wrap" style={wrapstyle}>
+                                <div  style={wrapstyle}>
 
                                 </div>
                             </div>
                     </div>
                 </div>
-                <div class='box' style={boxstyle}>
-                    <div class="item" style={itemstyle}>2</div>
-                    <div class="wrap" style={wrapstyle}>
-                    <div class='box' style={boxstyle}>
-                                <div class="item" style={itemstyle}>2</div>
-                                <div class="wrap" style={wrapstyle}>
+                <div  style={boxstyle}>
+                    <div  style={itemstyle}>2</div>
+                    <div  style={wrapstyle}>
+                    <div  style={boxstyle}>
+                                <div  style={itemstyle}>2</div>
+                                <div  style={wrapstyle}>
 
                                 </div>
                             </div>
-                            <div class='box' style={boxstyle}>
-                                <div class="item" style={itemstyle}>2</div>
-                                <div class="wrap" style={wrapstyle}>
+                            <div  style={boxstyle}>
+                                <div  style={itemstyle}>2</div>
+                                <div  style={wrapstyle}>
 
                                 </div>
                             </div>

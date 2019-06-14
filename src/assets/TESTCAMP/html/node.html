@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+            <div>
+                <div id="div1" class="div">div1</div>
+                <div id="div2" class="div">div2</div>
+                <div id="div3" class="div">
+                    <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>2</li>
+                    <li>4</li>
+                    </ul>
+                </div>      
+            </div>
+
+        <script>
+            let div1 = document.getElementById("div1");
+            console.log("div1.nextSibling", div1.nextSibling.nodeType);
+            console.log("div1.nextElementSibling", div1.nextElementSibling.nodeType);
+            console.log(div1);
+            let pNode = div1.parentNode;
+            let pElement = div1.parentElement;
+            console.log("pNode", pNode);
+            console.log("pElement", pElement);
+            let childs = pNode.childNodes;
+            let elements = pNode.children;
+            console.log("childs[0].nodeName", childs[0].nodeName === "#text");
+            console.log("ele", elements);
+            console.log("pNode.firstChild", pNode.firstChild)
+            console.log("pNode.firstElementChild", pNode.firstElementChild);
+        </script>
+    </body>
+</html>

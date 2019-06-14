@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="divParent" style="background-color: #aaa; padding:8px; border:solid 7px #000; height:200px; width:500px; overflow:auto;">
+            <div id="divDisplay" style="background-color: #0f0; margin: 20px; padding: 10px;
+                height: 400px; width: 200px; border: solid 3px #f00;">
+            </div>
+        </div>
+        <script>
+            var divP = document.getElementById('divParent');
+            var divD = document.getElementById('divDisplay');
+
+            var scrollHeight = divD.scrollHeight;
+            var scrollWidth = divD.scrollWidth;
+            console.log('client', divD.clientHeight)
+            divD.innerHTML += 'scrollHeight: ' + scrollHeight + '<br/>';
+            divD.innerHTML += 'scrollWidth: ' + scrollWidth + '<br/>';
+            document.body.addEventListener('mousemove', function(event) {
+                console.log(event.clientX, event.clientY);
+                console.log(event.screenX, event.screenY);
+            })
+        </script>
+    </body>
+</html>

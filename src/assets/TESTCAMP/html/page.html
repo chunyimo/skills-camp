@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .g-content {
+            top: 109px;
+            left: 0;
+            bottom: 32px;
+            right: 400px;
+            overflow: auto;
+            background-color: #dbdbdb;
+            -webkit-transition: right 0.3s ease-in-out;
+            -moz-transition: right 0.3s ease-in-out;
+            -ms-transition: right 0.3s ease-in-out;
+            -o-transition: right 0.3s ease-in-out;
+            transition: right 0.3s ease-in-out;
+        } 
+        .m-dashRegion {
+            position: relative;
+            padding: 15px 25px;
+            min-width: 100%;
+            min-height: 100%;
+            overflow: hidden;
+        }
+        .m-canvas-screen {
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
+        .m-canvas {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            
+        }
+        .dragDiv {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background-color: aqua;
+            top: 40px;
+            left: 40px;
+        }
+        
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="g-content">
+            <div class="m-dashRegion " style="width: 1970px; height: 1130px;">
+                <div class="m-canvas " style="width: 1920px; height: 1080px; background: rebeccapurple">
+                    <div id="dragDiv" class="dragDiv"></div>
+                </div>
+            </div>  
+        </div>
+
+        <script>
+            let dragDiv = document.getElementById("dragDiv");
+            let isDrag = false;
+            let pX;
+            let pY;
+            dragDiv.addEventListener("mousedown", function(event) {
+                isDrag = true;
+                pX = event.clientX - event.target.offsetLeft;
+                pY = event.clientY - event.target.offsetTop;
+            })
+            dragDiv.addEventListener("mousemove", function(event) {
+                if (isDrag) {
+                    let X = event.clientX - pX;
+                    let Y = event.clientY - pY;
+                    event.target.style.left = X + 'px';
+                    event.target.style.top = Y + 'px';
+                }   
+            })
+            dragDiv.addEventListener("mouseup", function(event){
+                isDrag = false;
+            })
+            dragDiv.addEventListener("mouseout", function(event){
+                isDrag = false;
+            })
+        </script>
+    </body>
+</html>

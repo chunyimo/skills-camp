@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Routers, Route, Redirect, Switch } from 'react-router-dom'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import MainContentRoutes from '../Routes/MainContentRoutes';
 const useStyles = makeStyles(theme => ({

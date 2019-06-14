@@ -9,6 +9,10 @@ class ThirdCom extends React.Component {
         }
     }
 
+    componentDidMount() {
+        console.log(this.context);
+    }
+
     render() {
         return (
             <Context.Consumer>
@@ -23,4 +27,5 @@ class ThirdCom extends React.Component {
         )
     }    
 }
+ThirdCom.contextType = Context;
 export default ThirdCom;

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .g-container {
+                overflow: auto;
+                background-color: aquamarine
+            }
+            .g-dashRegion {
+                position: relative;
+                width: 1970px;
+                height: 1130px;
+                padding: 15px 25px;
+                min-width: 100%;
+                min-height: 100%;
+                overflow: hidden;
+            }
+            .g-canvas {
+                width: 1920px;
+                height: 1080px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rebeccapurple;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="number" onchange="changeScale()">
+        <div class="g-container">
+            <div class="g-dashRegion">
+                <div id="g-canvas" class="g-canvas">
+
+                </div>
+            </div>
+        </div>
+    <script>
+        function changeScale(value) {
+            console.log()
+            let canvas = document.getElementById("g-canvas");
+            canvas.style.transform = `scale(${value})`
+        }
+    </script>
+    </body>
+</html>
