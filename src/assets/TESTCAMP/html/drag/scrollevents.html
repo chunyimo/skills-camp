@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="scrolltest" style="background-color:red; width: 800px; height: 800px; position: relative; left: 50%;  transform: translate(-50%);overflow: auto">
+        <div style="background-color:green; width: 1600px; height: 300px; position: relative; text-align: center; line-height: 300px; font-size: 100px">
+        1
+        </div>
+        <div style="background-color:green; width: 1600px; height: 300px; position: relative; text-align: center; line-height: 300px; font-size: 100px">
+        2
+        </div>
+        <div style="background-color:green; width: 1600px; height: 300px; position: relative; text-align: center; line-height: 300px; font-size: 100px">
+        3
+        </div>
+        <div style="background-color:green; width: 1600px; height: 300px; position: relative; text-align: center; line-height: 300px; font-size: 100px">
+        4
+        </div>
+        <div style="background-color:green; width: 1600px; height: 300px; position: relative; text-align: center; line-height: 300px; font-size: 100px">
+        5
+        </div>
+    </div>
+
+    <script>
+    window.onscroll = function(){
+        console.log("scroll");
+        console.log(this.pageYOffset)
+    }
+
+    document.getElementById("scrolltest").onscroll = function() {
+        console.log("scrolltest scrollTop", this.scrollTop);
+        console.log("scrolltest scrollLeft", this.scrollLeft);
+    }
+    </script>
+</body>
+</html>

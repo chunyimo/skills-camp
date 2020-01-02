@@ -45,7 +45,6 @@ const useStyles = makeStyles(theme => ({
         left: '40px',
         top: '40px',
         display: 'inline-block',
-        resize: 'both',
         overflow: 'auto',
         
     },
@@ -503,6 +502,15 @@ function ScalePanleIndex() {
                         >
                         
                     </div>
+                    
+                    <div 
+                        id = "graph4"
+                        className={classes.dragDiv} 
+                        isdraggable={"false"} 
+                        style={{backgroundColor: '#90a4ae', marginLeft: '400px', resize: 'both'}}
+                        >
+                        
+                    </div>
                     <div 
                         id = "graph4"
                         className={classes.dragDiv} 
@@ -513,10 +521,12 @@ function ScalePanleIndex() {
                             (event) => move(event)   
                         }
                         onMouseOut={(event) => mouseout(event)}
-                        style={{backgroundColor: '#90a4ae', }}
+                        style={{backgroundColor: 'blue', }}
                         >
                         
                     </div>
+                    
+                    
                 </div>
             </div>          
         </div>

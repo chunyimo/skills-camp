@@ -2,29 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d44d00ea-7e03-49db-a7bf-6c6f29a91f13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/hook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/scale.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/barracks/ScalePanel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/barracks/hook/HookCounter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/barracks/hook/PublicUseReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/barracks/hook/counterActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/barracks/hook/counterReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/barracks/hook/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo3bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo4sandian.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/MainContentRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/MainContentRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReactContext/Context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReactContext/FirstCom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReactContext/SecondCom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReactContext/ThirdCom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/d3/D3Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reactdnd/DragAndDrop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reactdnd/DragSource.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reactdnd/DropTarget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/utlis/MakeIcon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/MainContentsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainContentsContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/DND.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/coordinate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/drag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/dragtest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/drapeffect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/mygcontent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/node.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/resize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/TESTCAMP/html/svgpractice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/barracks/ReactContext/Context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/barracks/ReactContext/Context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/barracks/ReactContext/ThirdCom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/barracks/ReactContext/ThirdCom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/barracks/ScalePanel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/barracks/ScalePanel/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/SiderbarLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/SiderbarLayout.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,51 +32,51 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/barracks/ScalePanel/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
-                  <folding>
-                    <element signature="e#0#30#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/page.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-66" />
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/layout/SiderbarLayout.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo2svg.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo3bar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo4sandian.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -108,14 +103,18 @@
         <option value="$PROJECT_DIR$/src/barracks/hook/index.js" />
         <option value="$PROJECT_DIR$/src/barracks/hook/PublicUseReducer.js" />
         <option value="$PROJECT_DIR$/src/barracks/ScalePanel/index.js" />
+        <option value="$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo2svg.html" />
+        <option value="$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo3bar.html" />
+        <option value="$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/sandian.html" />
+        <option value="$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo4sandian.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="495" />
-    <option name="y" value="1" />
+    <option name="x" value="950" />
+    <option name="y" value="-10" />
     <option name="width" value="980" />
-    <option name="height" value="1050" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -127,75 +126,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="TESTCAMP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="TESTCAMP" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="barracks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="barracks" type="462c0819:PsiDirectoryNode" />
-              <item name="ScalePanel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skills-camp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skills-camp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +142,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -262,23 +194,29 @@
       <workItem from="1560297996360" duration="14000" />
       <workItem from="1560320799096" duration="1155000" />
       <workItem from="1560384029417" duration="592000" />
+      <workItem from="1560820011277" duration="57000" />
+      <workItem from="1561088397098" duration="10365000" />
+      <workItem from="1561255746904" duration="2000" />
+      <workItem from="1563002005492" duration="190000" />
+      <workItem from="1563070642167" duration="491000" />
+      <workItem from="1563071227938" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26667000" />
+    <option name="totallyTimeSpent" value="37804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19168901" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4175603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -291,6 +229,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289855" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -372,25 +312,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/reactdnd/DragAndDrop.js" />
     <entry file="file://$PROJECT_DIR$/src/components/d3/D3Main.js" />
-    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/DND.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/DND.html" />
     <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/scripts/dnd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
@@ -398,27 +320,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/drag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3630">
-          <caret line="165" column="63" selection-start-line="165" selection-start-column="63" selection-end-line="165" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/drapeffect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5368">
-          <caret line="244" column="7" selection-start-line="244" selection-start-column="7" selection-end-line="244" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/mygcontent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/drag.html" />
+    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/drapeffect.html" />
+    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/mygcontent.html" />
     <entry file="file://$PROJECT_DIR$/src/barracks/hook/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -480,25 +384,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/barracks/ScalePanel/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/page.html" />
     <entry file="file://$PROJECT_DIR$/src/layout/SiderbarLayout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/barracks/ScalePanel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/d3/dist/d3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="680" column="2" selection-start-line="680" selection-start-column="2" selection-end-line="680" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo2svg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo3bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/TESTCAMP/html/d3/demo4sandian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
         </state>
       </provider>
     </entry>

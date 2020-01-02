@@ -28,5 +28,5 @@ class FirstCom extends React.Component {
         )
     }    
 }
-FirstCom.contextType = Context;
+
 export default FirstCom;

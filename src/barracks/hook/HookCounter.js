@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from 'react';
+import React, { useState, useReducer, useEffect } from 'react';
 import Button from '@material-ui/core/Button'
 import Divider from '@material-ui/core/Divider'
 import reducer from './counterReducer';
@@ -7,6 +7,11 @@ import actions from './counterActions';
 function HookCounter() {
     const [count, setCount] = useState(0);
     const [state, dispatch] = useReducer(reducer, {count: 0});
+    useEffect(() => {
+        setInterval(() => {
+            setCount(count => count+1)
+        }, 1000);
+    }, count)
     return (
         <div>
             <p>yout clicked {count} times</p>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+        }
+        .axis text {
+            font-family: sans-serif;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+    <script src="../../../js/d3.js"></script>
+    <script>
+        var dataset = [
+            [5, 20], [480, 90], [250, 50], [100, 33], [330, 95],
+            [410, 12], [475, 44], [25, 67], [85, 21], [220, 88]
+        ];
+        var w = 800;
+        var h = 150;
+        var xScale = d3.scaleLinear()
+            .domain([0, d3.max(dataset, d => d[0] + 100)])
+            .range([0, w])
+        var yScale = d3.scaleLinear()
+            .domain([0, d3.max(dataset, d => d[1])])
+            .range([h, 0]);
+
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h)
+        svg.selectAll("circle")
+            .data(dataset)
+            .enter()
+            .append("circle")
+            .attr("cx", d => xScale(d[0]) + 50)
+            .attr("cy", d => d[1])
+            .attr("r", d => Math.sqrt(h - yScale(d[1])));
+        var xAxis = d3.axisBottom().scale(xScale).ticks(10);
+        var yAxis = d3.axisLeft().scale(yScale).ticks(5);
+
+        svg.append("g")
+            .attr("class", "axis")
+            .attr("transform", `translate(50, ${h - 20})`)
+            .call(xAxis);
+        svg.append("g")
+            .attr("class", "axis")
+            .attr("transform", `translate(50,-20)`)
+            .call(yAxis)
+
+
+
+    </script>
+</body>
+</html>

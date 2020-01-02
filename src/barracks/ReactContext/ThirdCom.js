@@ -2,6 +2,7 @@ import React from 'react';
 import Context from './Context';
 
 class ThirdCom extends React.Component {
+    static contextType = Context;
     constructor(props) {
         super(props);
         this.state = {
@@ -16,16 +17,20 @@ class ThirdCom extends React.Component {
     render() {
         return (
             <Context.Consumer>
-               {({theme, toggle}) => (
-                    <button
-                    onClick={toggle} //调用回调
-                    style={{backgroundColor: theme}}>
-                    Toggle Theme
-                    </button>
-                )} 
+                {
+                    context => (
+                        
+                            <button
+                            onClick={this.context.toggle} //调用回调
+                            style={{backgroundColor: this.context.theme}}>
+                            Toggle Theme
+                            </button>
+                    
+                    )
+                }
             </Context.Consumer>
+            
         )
     }    
 }
-ThirdCom.contextType = Context;
 export default ThirdCom;

@@ -1,6 +1,8 @@
 import React from 'react';
+import { EventEmitter } from 'events';
 import emitter from './events';
 import Button from '@material-ui/core/Button'
+
 class Comp2 extends React.Component {
     constructor(props) {
         super(props);
@@ -22,7 +24,7 @@ class Comp2 extends React.Component {
         return (
             <div>
                 <Button onClick={this.handleClick.bind(this, this.state.message)} color="primary">change</Button>
-                <Button onClick={this.handleClick2.bind(this, this.state.message)} color="primary">change</Button>
+                <Button onClick={this.handleClick2.bind(this, this.state.message2)} color="primary">change</Button>
             </div>
         )
     }

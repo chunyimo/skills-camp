@@ -191,7 +191,6 @@ function SiderbarLayout(props) {
                                 })
                             }
                         </List>
-                    
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
                 
